@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('i love you').split('');
+        const titles = ('I love you, beyond and forever').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "thank you for loving me, you're the best thing that happened to me this year and i cherrish every moment with you";
+            subtitle.innerText = "Thank you for standing by my side through every challenge, for believing in us even when the road was tough, and for filling my life with endless love and hope. Thank you for trusting me with your heart and your life, I promise to always cherish and honor it.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
